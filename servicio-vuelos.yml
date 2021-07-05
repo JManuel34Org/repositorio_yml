@@ -12,5 +12,7 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://${servidorEureka}:8761/eureka
+  instance:
+    hostname: ${hosteureka} 
 server:
   port: 7000
