@@ -39,4 +39,4 @@ eureka:
   client:
     register-with-eureka: false
     service-url:
-      defaultZone: http://${servidorEureka}:8761/eureka
+      defaultZone: http://${servidorEureka}:{puertoEureka}/eureka
